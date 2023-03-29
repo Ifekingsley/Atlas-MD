@@ -143,7 +143,7 @@ async function startMiku() {
         clearState,
     } = await getAuthFromDatabase()
 
-    console.log(color(figlet.textSync('Atlas Bot MD', {
+    console.log(color(figlet.textSync('Kingsley Bot MD', {
         font: 'Pagga',
         horizontalLayout: 'default',
         vertivalLayout: 'default',
@@ -151,8 +151,8 @@ async function startMiku() {
         whitespaceBreak: true
     }), 'yellow'))
 
-    console.log(color('\nHello, I am Fantox, the main developer of this bot.\n\nThanks for using: Atlas MD made by my Team Atlas.', 'aqua'))
-    console.log(color('\nYou can follow me on GitHub: FantoX001\n\n', 'aqua'))
+    console.log(color('\nHello, I am Kingsley, the main developer of this bot.\n\nThanks for using: Kingz MD made by my Team Kingsley.', 'aqua'))
+    console.log(color('\nYou can follow me on GitHub: Ife250\n\n', 'aqua'))
 
 
 
@@ -166,7 +166,7 @@ async function startMiku() {
             level: 'silent'
         }),
         printQRInTerminal: true,
-        browser: ['Atlas MD', 'Safari', '1.0.0'],
+        browser: ['Kingsley MD', 'Safari', '1.0.0'],
         auth: state,
         version
     })
